@@ -1,15 +1,14 @@
+header {
+    background-image : url("diamond_upholstery_@2X.png");
+}
+
 h1 {
     color : white;
     font-size : 40px;
     font-family : Comic;
     font-style : italic;
-    background-color : #5F9EA0;
-    height : 50px;
-    border-style : solid;
-    border-width : 2px;
-    border-color : #399284;
     text-align : center;
-    padding : 10px;
+    background-image : url(small_steps);
 }
 
 h2 {
@@ -17,17 +16,11 @@ h2 {
     text-align : center;
     font-family : Verdana;
     text-shadow : 5px 5px 9px;
-    float : none;
-    border-style : dashed;
-    border-color : #2F4F4F;
-    margin-left : 40px;
-    margin-right : 40px;
-    padding-bottom : 15px;
 }
 
 
 main {
-    background-color : #008080;
+    background-image: url("photography.png);
 }
 
 div p {
@@ -51,7 +44,13 @@ ul {
 footer {
     font-size : 16px;
     font-family : Verdana;
-    background-color : #B0C4DE;
+    background-image : url(shattered.png);
     text-align: center;
     padding-bottom : 8px;
+}
+
+.conteneur {
+    width : 100%;
+    padding : 10px;
+    margin : 15px;
 }
