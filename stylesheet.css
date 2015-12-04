@@ -1,35 +1,48 @@
 header {
     background-image : url("diamond_upholstery_@2X.png");
+    
 }
 
 h1 {
-    color : white;
+    color : #00BFFF;
     font-size : 40px;
     font-family : Comic;
     font-style : italic;
     text-align : center;
-    background-image : url(small_steps);
 }
 
 h2 {
-    font-size : 34px;
-    text-align : center;
+    text-align : right;
     font-family : Verdana;
     text-shadow : 5px 5px 9px;
 }
 
-
-main {
-    background-image: url("photography.png);
+a img {
+    margin-right : 10px;
+    margin-top : 20px;
+    margin-bottom : 30px;
+    width : 35%;
+    float : left;
 }
 
-div p {
+
+main {
+    background-image: url("shattered.png);
+}
+
+h3 {
     text-decoration : underline;
     font-size : 26px;
     font-weight : bold;
     font-family : Arial;
     margin-left: 5px;
-	margin-bottom: 25px;
+	margin-bottom: 25px
+}
+
+section {
+    clear: both;
+    margin : 10px;
+    height : 960px;
 }
 
 li {
@@ -37,20 +50,19 @@ li {
 }
 
 ul {
-    font-size : 16px;
+    font-size : 12px;
     font-family : Arial;
 }
 
 footer {
     font-size : 16px;
     font-family : Verdana;
-    background-image : url(shattered.png);
+    background-image : url(noise_pattern_with_crosslines_@2X.png);
     text-align: center;
     padding-bottom : 8px;
 }
 
 .conteneur {
-    width : 100%;
     padding : 10px;
     margin : 15px;
 }
