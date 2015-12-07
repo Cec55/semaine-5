@@ -64,17 +64,28 @@ p {
     width : 33%;
     height : 100%;
     top:10px;
-    left:10px;
+    left:0px;
     bottom:10px;
 }
 
 #parcours {
-    position: relative;
+    position : absolute;
     width : 33%;
     height : 100%;
-    left : 200px;
+    left : 180px;
     bottom : 10px;
     right : 120px;
+    top : 220px;
+}
+
+#ambitions {
+    position : absolute;
+    top : 220px;
+    width : 33%;
+    height : 100%;
+    right : 1%;
+    bottom : 1%;
+    left : 360px;
 }
 
 .footer {
