@@ -32,7 +32,7 @@ main {
 
 h3 {
     text-decoration : underline;
-    font-size : 26px;
+    font-size : 18px;
     font-weight : bold;
     font-family : Arial;
     margin-left: 5px;
@@ -40,9 +40,10 @@ h3 {
 }
 
 section {
+    position: relative;
     clear: both;
     margin : 10px;
-    height : 960px;
+    height : 60%;
 }
 
 li {
@@ -54,7 +55,29 @@ ul {
     font-family : Arial;
 }
 
-footer {
+p {
+    font-size : 12px;
+    font-family : Arial;
+}
+
+#experience {
+    width : 33%;
+    height : 100%;
+    top:10px;
+    left:10px;
+    bottom:10px;
+}
+
+#parcours {
+    position: relative;
+    width : 33%;
+    height : 100%;
+    left : 200px;
+    bottom : 10px;
+    right : 120px;
+}
+
+.footer {
     font-size : 16px;
     font-family : Verdana;
     background-image : url(noise_pattern_with_crosslines_@2X.png);
