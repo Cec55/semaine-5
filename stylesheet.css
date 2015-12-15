@@ -1,6 +1,6 @@
 header {
+    width : 100%;
     background-image : url("diamond_upholstery_@2X.png");
-    
 }
 
 h1 {
@@ -27,27 +27,20 @@ a img {
 
 
 main {
-    background-image: url("shattered.png);
+    background-image: url("shattered.png");
+    height : 510px;
 }
 
 h3 {
+    text-align : center;
     text-decoration : underline;
     font-size : 18px;
     font-weight : bold;
     font-family : Arial;
-    margin-left: 5px;
-	margin-bottom: 25px
-}
-
-section {
-    position: relative;
-    clear: both;
-    margin : 10px;
-    height : 60%;
 }
 
 li {
-    list-style-type : decimal;
+    list-style-type : circle;
 }
 
 ul {
@@ -55,48 +48,44 @@ ul {
     font-family : Arial;
 }
 
+h4 {
+    text-align : center;
+    font-size : 16px;
+    font-weight : bold;
+    font-family : Verdana;
+}
+
 p {
+    text-align : center;
     font-size : 12px;
     font-family : Arial;
 }
 
-#experience {
-    width : 33%;
-    height : 100%;
-    top:10px;
-    left:0px;
-    bottom:10px;
-}
-
-#parcours {
-    position : absolute;
-    width : 33%;
-    height : 100%;
-    left : 180px;
-    bottom : 10px;
-    right : 120px;
-    top : 220px;
-}
-
-#ambitions {
-    position : absolute;
-    top : 220px;
-    width : 33%;
-    height : 100%;
-    right : 1%;
-    bottom : 1%;
-    left : 360px;
-}
-
-.footer {
-    font-size : 16px;
-    font-family : Verdana;
-    background-image : url(noise_pattern_with_crosslines_@2X.png);
-    text-align: center;
-    padding-bottom : 8px;
+.colonne {
+    display : inline-block;
+	width: 28%;
+	vertical-align : top;
+	padding : 10px;
+	box-sizing : border;
 }
 
 .conteneur {
-    padding : 10px;
+    width : 100%;
+    max-width : 960px;
     margin : 15px;
+    padding : 10px;
+}
+
+.date {
+    font-weight : bold;
+}
+
+footer {
+    background-image : url("noise_pattern_with_crosslines_@2X.png");
+}
+
+iframe {
+    width : 50%;
+    height : 110px;
+    float : left;
 }
